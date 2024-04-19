@@ -87,7 +87,6 @@ Here are the strings:
     <string name="xSquaredText">x<sup><small>2</small></sup></string>
     <string name="xPowerYText">x<sup><small>y</small></sup></string>
     <string name="isPrimeFunctionText">prime</string>
-
     <string name="backspace"> </string>
 
 
@@ -97,4 +96,10 @@ Here are the strings:
 
 
 
-    <string name="backspace"> </string>
+    
+![Frame_1-removebg-preview](https://github.com/kianarven01/sci_cal/assets/109792510/f431db1d-353d-4ec1-bad0-fbf84033f68d)
+
+
+
+
+    
