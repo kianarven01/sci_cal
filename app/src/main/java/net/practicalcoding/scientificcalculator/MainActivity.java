@@ -25,6 +25,8 @@ public class MainActivity extends AppCompatActivity {
         display.setShowSoftInputOnFocus(false);
     }
 
+    
+ //Christian John Ibanez is a frontend and debugger of this activity he's responsible to test the backend performance. Changing this method to peroform a difference error issues.
  private void updateText(String strToAdd) {
         String oldStr = display.getText().toString();
         int cursorPos = display.getSelectionStart();
@@ -67,8 +69,12 @@ public class MainActivity extends AppCompatActivity {
             display.setSelection(cursorPos + strToAdd.length());
         }
     }
+    //------------------------------------------END OF THE METHOD-------------------------------------------------------------
 
 
+    
+
+    //Kian Arven Valencia is a former Backend developer of this activity, he's reponsible to make a methods of each buttons.
     public void zeroBTNPush(View view){
         updateText(getResources().getString(R.string.zeroText));
     }
