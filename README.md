@@ -1,6 +1,23 @@
-# ScientificCalculator
+𝗛𝗲𝗹𝗹𝗼, 𝗧𝗵𝗶𝘀 𝗺𝗼𝗯𝗶𝗹𝗲 𝗮𝗽𝗽𝗹𝗶𝗰𝗮𝘁𝗶𝗼𝗻 𝗶𝘀 𝗮 𝗯𝗮𝘀𝗶𝗰 𝘀𝗰𝗶𝗲𝗻𝘁𝗶𝗳𝗶𝗰 𝗰𝗮𝗹𝗰𝘂𝗹𝗮𝘁𝗼𝗿 𝗱𝗲𝘃𝗲𝗹𝗼𝗽𝗲𝗱 𝗶𝗻 𝗝𝗮𝘃𝗮 𝘂𝘀𝗶𝗻𝗴 𝗔𝗻𝗱𝗿𝗼𝗶𝗱 𝗦𝘁𝘂𝗱𝗶𝗼. 
+
+𝐓𝐞𝐚𝐦 𝐦𝐞𝐦𝐛𝐞𝐫𝐬:
+    Christian John D. Ibanez (FrontEnd)   - https://github.com/siji1007
+    Kian Arven Valencia (BackEnd)         - https://github.com/kianarven01
+    Isaac Obusan (UI design)              - https://github.com/IsaacObusan
+    Rhemiel Responde (UI design) 
+
+
+The application is currently being worked on. 
 
 Here are the colors:
+
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
 
     <!-- Colors for the background -->
     <color name="blackStart">#060607</color>
@@ -9,7 +26,7 @@ Here are the colors:
 
     <!-- Colors to add a little pop to the buttons -->
     <color name="greyAccent">#afb9c5</color>
-    <color name="tanAccent">#e3cdb3</color>
+    <color name="tanAccent">#FF000000</color>
 
     <!-- Clear Button Colors -->
     <color name="redBackground">#5a020b</color>
@@ -23,7 +40,14 @@ Here are the colors:
     <color name="purpleBackground">#330133</color>
     <color name="purpleAccent">#de00de</color>
 
+    <color name="light_blue">#c9e9f6</color>
+    <color name="gray">#a6a6a6</color>
+
 Here are the strings:
+
+    <string name="app_name">ScientificCalculator</string>
+
+    <string name="displyHint">Enter a Value</string>
 
     <string name="oneText">1</string>
     <string name="twoText">2</string>
@@ -61,5 +85,14 @@ Here are the strings:
     <string name="xSquaredText">x<sup><small>2</small></sup></string>
     <string name="xPowerYText">x<sup><small>y</small></sup></string>
     <string name="isPrimeFunctionText">prime</string>
+
+    <string name="backspace"> </string>
+
+
+
+
+
+
+
 
     <string name="backspace"> </string>
