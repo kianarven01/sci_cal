@@ -26,7 +26,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     
- //Christian John Ibanez is a frontend and debugger of this activity he's responsible to test the backend performance. Changing this method to peroform a difference error issues.
+ //Christian John Ibanez is a frontend and debugger of this activity he's responsible to test the backend performance. Changing this method to peroform a different error issues.
  private void updateText(String strToAdd) {
         String oldStr = display.getText().toString();
         int cursorPos = display.getSelectionStart();
