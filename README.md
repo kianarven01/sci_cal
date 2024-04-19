@@ -1,10 +1,12 @@
 𝗛𝗲𝗹𝗹𝗼, 𝗧𝗵𝗶𝘀 𝗺𝗼𝗯𝗶𝗹𝗲 𝗮𝗽𝗽𝗹𝗶𝗰𝗮𝘁𝗶𝗼𝗻 𝗶𝘀 𝗮 𝗯𝗮𝘀𝗶𝗰 𝘀𝗰𝗶𝗲𝗻𝘁𝗶𝗳𝗶𝗰 𝗰𝗮𝗹𝗰𝘂𝗹𝗮𝘁𝗼𝗿 𝗱𝗲𝘃𝗲𝗹𝗼𝗽𝗲𝗱 𝗶𝗻 𝗝𝗮𝘃𝗮 𝘂𝘀𝗶𝗻𝗴 𝗔𝗻𝗱𝗿𝗼𝗶𝗱 𝗦𝘁𝘂𝗱𝗶𝗼. 
 
-𝐓𝐞𝐚𝐦 𝐦𝐞𝐦𝐛𝐞𝐫𝐬:
-    Christian John D. Ibanez (FrontEnd)   - https://github.com/siji1007
-    Kian Arven Valencia (BackEnd)         - https://github.com/kianarven01
-    Isaac Obusan (UI design)              - https://github.com/IsaacObusan
-    Rhemiel Responde (UI design) 
+Team members:  
+Christian John D. Ibanez (FrontEnd) - [GitHub](https://github.com/siji1007)  
+Kian Arven Valencia (BackEnd) - [GitHub](https://github.com/kianarven01)  
+Isaac Obusan (UI design) - [GitHub](https://github.com/IsaacObusan)  
+Rhemiel Responde (UI design) 
+
+
 
 
 The application is currently being worked on. 
