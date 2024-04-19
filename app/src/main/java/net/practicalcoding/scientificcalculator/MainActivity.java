@@ -25,15 +25,49 @@ public class MainActivity extends AppCompatActivity {
         display.setShowSoftInputOnFocus(false);
     }
 
-    private void updateText(String strToAdd){
+ private void updateText(String strToAdd) {
         String oldStr = display.getText().toString();
         int cursorPos = display.getSelectionStart();
+
+        // Check if the last character is an operator or a decimal point
+        boolean lastCharIsOperatorOrDecimal = !oldStr.isEmpty() &&
+                (oldStr.endsWith("+") || oldStr.endsWith("-") ||
+                        oldStr.endsWith("*") || oldStr.endsWith("/") ||
+                        oldStr.endsWith("."));
+
+        // Check if the new input is an operator
+        boolean newInputIsOperator = strToAdd.equals("+") || strToAdd.equals("-") ||
+                strToAdd.equals("*") || strToAdd.equals("/");
+
+        // Check if consecutive operators are being added
+        if (lastCharIsOperatorOrDecimal && newInputIsOperator) {
+            // Do not add the new operator
+            return;
+        }
+
+        // Check if the new input is a double operator
+        boolean newInputIsDoubleOperator = strToAdd.equals("++") || strToAdd.equals("+-") ||
+                strToAdd.equals("--") || strToAdd.equals("-+");
+
+        // Check if a double operator is being added
+        if (newInputIsDoubleOperator) {
+            // Display the first character of the double operator only
+            strToAdd = strToAdd.substring(0, 1);
+        }
+
         String leftStr = oldStr.substring(0, cursorPos);
         String rightStr = oldStr.substring(cursorPos);
 
-        display.setText(String.format("%s%s%s", leftStr, strToAdd, rightStr));
-        display.setSelection(cursorPos + strToAdd.length());
+        // Check if the display shows a syntax error
+        if (oldStr.equals("Syntax Error")) {
+            // Clear the display and set the new number
+            display.setText(strToAdd);
+        } else {
+            display.setText(String.format("%s%s%s", leftStr, strToAdd, rightStr));
+            display.setSelection(cursorPos + strToAdd.length());
+        }
     }
+
 
     public void zeroBTNPush(View view){
         updateText(getResources().getString(R.string.zeroText));
