@@ -148,6 +148,8 @@ public class MainActivity extends AppCompatActivity {
         updateText(getResources().getString(R.string.decimalText));
     }
 
+    //-----------------------------END-----------------------------------------------
+
     public void equalBTNPush(View view){
         String userExp = display.getText().toString();
 
