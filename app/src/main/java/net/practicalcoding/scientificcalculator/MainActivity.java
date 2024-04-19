@@ -150,21 +150,30 @@ public class MainActivity extends AppCompatActivity {
 
     //-----------------------------END-----------------------------------------------
 
-    public void equalBTNPush(View view){
-        String userExp = display.getText().toString();
 
+
+    //This methods is contributed by Chistian John Ibanez
+
+    //This method is to perform the calculation 
+    public void equalBTNPush(View view){
+        //As you can see here the userExp variable contains the data which active on the display(editText in the xml activity_main layout)
+        String userExp = display.getText().toString();
+        
         previousCalculation.setText(userExp);
 
         userExp = userExp.replaceAll(getResources().getString(R.string.divideText), "/");
         userExp = userExp.replaceAll(getResources().getString(R.string.multiplyText), "*");
 
+        //  This line creates a new object of type Expression using the modified userExp string. The Expression class seems to be handling mathematical expressions for evaluation.
         Expression exp = new Expression(userExp);
+
+        //The calculate() method of the Expression object exp evaluates the mathematical expression stored in userExp, and String.valueOf(...) converts the result to a string. This line calculates the result of the mathematical expression.
         String result = String.valueOf(exp.calculate());
 
         display.setText(result);
         display.setSelection(result.length());
     }
-
+    
     public void backspaceBTNPush(View view){
         int cursorPos = display.getSelectionStart();
         int textLen = display.getText().length();
