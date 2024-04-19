@@ -15,7 +15,7 @@
 
     <!-- Colors to add a little pop to the buttons -->
     <color name="greyAccent">#afb9c5</color>
-    <color name="tanAccent">#e3cdb3</color>
+    <color name="tanAccent">#FF000000</color>
 
     <!-- Clear Button Colors -->
     <color name="redBackground">#5a020b</color>
@@ -28,4 +28,7 @@
     <!-- Math Operator Button Colors -->
     <color name="purpleBackground">#330133</color>
     <color name="purpleAccent">#de00de</color>
+
+    <color name="light_blue">#c9e9f6</color>
+    <color name="gray">#a6a6a6</color>
 </resources>
