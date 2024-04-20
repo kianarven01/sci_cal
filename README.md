@@ -11,6 +11,9 @@ Team members:
     Isaac Obusan (UI design) - [GitHub LINK](https://github.com/IsaacObusan)  
     Rhemiel Responde (UI design) 
 
+UI-UX Contribution:
+    https://github.com/kianarven01/sci_cal/blob/master/Design%20Part-Contribution-%20Obusan_Responde.png
+
 
 
 
