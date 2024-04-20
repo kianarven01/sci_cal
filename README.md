@@ -8,11 +8,11 @@
 Team members:  
     Christian John D. Ibanez (FrontEnd) - [GitHub LINK](https://github.com/siji1007)  
     Kian Arven Valencia (BackEnd) - [GitHub LINK](https://github.com/kianarven01)  
-    Isaac Obusan (UI design) - [GitHub LINK](https://github.com/IsaacObusan)  
+    Isaac Obusan (UX design) - [GitHub LINK](https://github.com/IsaacObusan)  
     Rhemiel Responde (UI design) 
 
 UI-UX Contribution:
-    https://github.com/kianarven01/sci_cal/blob/master/Design%20Part-Contribution-%20Obusan_Responde.png
+ ![Frame_1-removebg-preview](https://github.com/kianarven01/sci_cal/blob/master/Design%20Part-Contribution-%20Obusan_Responde.png)
 
 
 
